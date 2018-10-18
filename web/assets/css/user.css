@@ -1,0 +1,115 @@
+@import url(userFonts.css);
+
+body{
+    background-color: #FFFFFF;
+}
+
+.login-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+.form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input:not([type='radio']) {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 15px 0 0;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+#login {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    outline: 0;
+    background: #FF5722;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.form .message {
+    font-family: "Open Sans", sans-serif;
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 10pt;
+}
+.form .message a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+#wrongLogin {
+    margin-top: 5px;
+    font-size: large;
+    font-weight: bold;
+    color: red;
+    text-decoration: none;
+}
+
+#fileupload {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 1px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+#fileuploadMessage{
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 0;
+    padding: 0 57.5% 0 0;
+}
+
+#logo {
+    margin-left: 24.9%;
+    margin-bottom: 4%;
+}
+
+.radio {
+    margin: 6% 0 6% 0;
+}
+
+.wrongInput {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: red;
+    margin: 3px 0 0 10px;
+    padding: 0;
+    text-align: left;
+    display: none;
+}
+
+#resetPasswordMessage {
+    margin: 15px 0 0;
+    color: #FF5722;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#wrongTokken {
+    margin: 15px 0 0;
+    color: #af0011;
+    font-size: 20px;
+    font-weight: bold;
+}

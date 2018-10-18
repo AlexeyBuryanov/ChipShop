@@ -1,0 +1,13 @@
+#normalSlider {
+    display: none !important;
+}
+
+@media screen and (max-width: 1200px) {
+    #flexSliderDiv {
+        display: none !important;
+    }
+
+    #normalSlider {
+        display: inline-block !important;
+    }
+}

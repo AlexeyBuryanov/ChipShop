@@ -1,0 +1,61 @@
+.btn-sq-lg {
+    width: 150px !important;
+    height: 150px !important;
+    margin: 5px;
+}
+
+.btn-sq {
+    width: 100px !important;
+    height: 100px !important;
+    font-size: 10px;
+}
+
+.btn-sq-sm {
+    width: 50px !important;
+    height: 50px !important;
+    font-size: 10px;
+}
+
+.btn-sq-xs {
+    width: 25px !important;
+    height: 25px !important;
+    padding: 2px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #f5f5f5
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+.page {
+    width: 360px;
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.adminMainWindow {
+    margin: 5% 10% 0 10%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 2px;
+}

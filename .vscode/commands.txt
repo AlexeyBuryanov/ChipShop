@@ -1,0 +1,4 @@
+composer require --dev squizlabs/php_codesniffer
+composer require phpmailer/phpmailer
+composer require twbs/bootstrap
+composer require components/font-awesome

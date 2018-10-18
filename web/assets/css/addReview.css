@@ -1,0 +1,37 @@
+label > input{ /* скрыть радио */
+    visibility: hidden; /* делаем ввод не кликабельным */
+    position: absolute; /* удаляем ввод из потока документов */
+}
+label > input + img{ /* стиль изображений */
+    cursor:pointer;
+    border:2px solid transparent;
+}
+label > input:checked + img{ /* (радио нажато) стиль изображений */
+    height: 80px;
+
+}
+
+.starRating {
+    height: 49px;
+    width: auto;
+}
+
+#uppderDiv {
+    margin-bottom: 35px;
+}
+
+#lowerDiv {
+    margin-bottom: 15px;
+}
+
+#labelTitle{
+    margin-top: 20px;
+}
+
+#labelTextArea {
+    margin-top: 20px;
+}
+
+#addReviewButton {
+    margin-bottom: 50px;
+}

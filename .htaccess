@@ -1,0 +1,20 @@
+php_value display_errors 1
+php_value upload_max_filesize 100M
+php_value post_max_size 100M
+
+# 400 - bad request
+# 401 - требуется авторизация (Authorization Required)
+# 403 - пользователь не прошел аутентификацию, доступ запрещен (Forbidden)
+# 404 - документ не найден (Not Found Page)
+# 500 - внутренняя ошибка сервера (Internal Server Error)
+ErrorDocument 400 /Chip/views/error/error_400.php
+ErrorDocument 403 /Chip/views/error/error_403.php
+ErrorDocument 404 /Chip/views/error/error_404.php
+ErrorDocument 500 /Chip/views/error/error_500.php
+
+# Запрет на отображение содержимого каталога при отсутствии индексного файла
+Options -Indexes
+
+# TODO: Преобразование непонятных URL в понятные для простого обывателя
+# RewriteEngine on
+# RewriteRule ^/Chip/views/main/single/([^/\.]+)/?$ single.php?pid=$1 [L]

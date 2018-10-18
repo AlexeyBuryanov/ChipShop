@@ -1,0 +1,213 @@
+[
+    {
+        "name": "components/font-awesome",
+        "version": "5.0.6",
+        "version_normalized": "5.0.6.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/components/font-awesome.git",
+            "reference": "18619364d77677cec103934b1aee6d4f45407d1a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/components/font-awesome/zipball/18619364d77677cec103934b1aee6d4f45407d1a",
+            "reference": "18619364d77677cec103934b1aee6d4f45407d1a",
+            "shasum": ""
+        },
+        "time": "2018-02-11T17:32:00+00:00",
+        "type": "component",
+        "extra": {
+            "component": {
+                "styles": [
+                    "css/fontawesome-all.css"
+                ],
+                "files": [
+                    "css/fontawesome-all.min.css",
+                    "webfonts/*"
+                ]
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "CC-BY-4.0",
+            "MIT",
+            "OFL-1.1"
+        ],
+        "description": "Font Awesome, the iconic SVG, font, and CSS framework."
+    },
+    {
+        "name": "phpmailer/phpmailer",
+        "version": "v6.0.5",
+        "version_normalized": "6.0.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/PHPMailer/PHPMailer.git",
+            "reference": "cb3ea134d4d3729e7857737d5f320cce9caf4d32"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/cb3ea134d4d3729e7857737d5f320cce9caf4d32",
+            "reference": "cb3ea134d4d3729e7857737d5f320cce9caf4d32",
+            "shasum": ""
+        },
+        "require": {
+            "ext-ctype": "*",
+            "ext-filter": "*",
+            "php": ">=5.5.0"
+        },
+        "require-dev": {
+            "doctrine/annotations": "1.2.*",
+            "friendsofphp/php-cs-fixer": "^2.2",
+            "phpdocumentor/phpdocumentor": "2.*",
+            "phpunit/phpunit": "^4.8 || ^5.7",
+            "zendframework/zend-eventmanager": "3.0.*",
+            "zendframework/zend-i18n": "2.7.3",
+            "zendframework/zend-serializer": "2.7.*"
+        },
+        "suggest": {
+            "ext-mbstring": "Needed to send email in multibyte encoding charset",
+            "hayageek/oauth2-yahoo": "Needed for Yahoo XOAUTH2 authentication",
+            "league/oauth2-google": "Needed for Google XOAUTH2 authentication",
+            "psr/log": "For optional PSR-3 debug logging",
+            "stevenmaguire/oauth2-microsoft": "Needed for Microsoft XOAUTH2 authentication",
+            "symfony/polyfill-mbstring": "To support UTF-8 if the Mbstring PHP extension is not enabled (^1.2)"
+        },
+        "time": "2018-03-27T13:49:45+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "PHPMailer\\PHPMailer\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-2.1"
+        ],
+        "authors": [
+            {
+                "name": "Jim Jagielski",
+                "email": "jimjag@gmail.com"
+            },
+            {
+                "name": "Marcus Bointon",
+                "email": "phpmailer@synchromedia.co.uk"
+            },
+            {
+                "name": "Andy Prevost",
+                "email": "codeworxtech@users.sourceforge.net"
+            },
+            {
+                "name": "Brent R. Matzelle"
+            }
+        ],
+        "description": "PHPMailer is a full-featured email creation and transfer class for PHP"
+    },
+    {
+        "name": "squizlabs/php_codesniffer",
+        "version": "3.2.3",
+        "version_normalized": "3.2.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
+            "reference": "4842476c434e375f9d3182ff7b89059583aa8b27"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/4842476c434e375f9d3182ff7b89059583aa8b27",
+            "reference": "4842476c434e375f9d3182ff7b89059583aa8b27",
+            "shasum": ""
+        },
+        "require": {
+            "ext-simplexml": "*",
+            "ext-tokenizer": "*",
+            "ext-xmlwriter": "*",
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^4.0 || ^5.0 || ^6.0 || ^7.0"
+        },
+        "time": "2018-02-20T21:35:23+00:00",
+        "bin": [
+            "bin/phpcs",
+            "bin/phpcbf"
+        ],
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Greg Sherwood",
+                "role": "lead"
+            }
+        ],
+        "description": "PHP_CodeSniffer tokenizes PHP, JavaScript and CSS files and detects violations of a defined set of coding standards.",
+        "homepage": "http://www.squizlabs.com/php-codesniffer",
+        "keywords": [
+            "phpcs",
+            "standards"
+        ]
+    },
+    {
+        "name": "twbs/bootstrap",
+        "version": "v4.1.1",
+        "version_normalized": "4.1.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/twbs/bootstrap.git",
+            "reference": "779ad9f174ea5ab7e755f6df0ec9e5912d67dd16"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/twbs/bootstrap/zipball/779ad9f174ea5ab7e755f6df0ec9e5912d67dd16",
+            "reference": "779ad9f174ea5ab7e755f6df0ec9e5912d67dd16",
+            "shasum": ""
+        },
+        "replace": {
+            "twitter/bootstrap": "self.version"
+        },
+        "time": "2018-04-30T16:04:33+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.3.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jacob Thornton",
+                "email": "jacobthornton@gmail.com"
+            },
+            {
+                "name": "Mark Otto",
+                "email": "markdotto@gmail.com"
+            }
+        ],
+        "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+        "homepage": "https://getbootstrap.com/",
+        "keywords": [
+            "JS",
+            "css",
+            "framework",
+            "front-end",
+            "mobile-first",
+            "responsive",
+            "sass",
+            "web"
+        ]
+    }
+]

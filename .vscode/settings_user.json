@@ -1,0 +1,14 @@
+{
+    "window.zoomLevel": 0,
+    "files.autoSave": "afterDelay",
+    "telemetry.enableTelemetry": false,
+    "php.validate.executablePath": "D:\\Programs\\XAMPP\\php\\php.exe",
+    "php.executablePath": "D:\\Programs\\XAMPP\\php\\php.exe",
+    "explorer.confirmDelete": false,
+    "editor.fontSize": 18,
+    "composer.executablePath": "C:\\ProgramData\\ComposerSetup\\bin\\composer.bat",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "terminal.integrated.shellArgs.windows": ["/K", "chcp 65001"],
+    "editor.cursorStyle": "line",
+    "phpcs.showSources": true
+}
