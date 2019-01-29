@@ -1,4 +1,7 @@
-# ChipShop
+[license-image]: https://img.shields.io/npm/l/normalize.css.svg?style=flat
+[license-url]: LICENSE
+
+# ChipShop [![license][license-image]][license-url]
 Online electronics store. Website using PHP scripting language. 
 
 ## Basic user functionality
